@@ -79,11 +79,11 @@ Clone the MLLM repositories and place them in the `models` directory, and follow
         ```python
         image_emb = None,
         ```
-        as addtional [argument for forward function of QWenModel](https://huggingface.co/Qwen/Qwen-VL-Chat/blob/f57cfbd358cb56b710d963669ad1bcfb44cdcdd8/modeling_qwen.py#L538-L553), and replace
+        as addtional [argument for forward function of QWenModel](https://huggingface.co/Qwen/Qwen-VL-Chat/blob/f57cfbd358cb56b710d963669ad1bcfb44cdcdd8/modeling_qwen.py#L538-L553), and replace [this line of code](https://huggingface.co/Qwen/Qwen-VL-Chat/blob/f57cfbd358cb56b710d963669ad1bcfb44cdcdd8/modeling_qwen.py#L565) with
         ```python
         images = image_emb if image_emb is not None else self.visual.encode(images)
         ```
-        with [this line of code](https://huggingface.co/Qwen/Qwen-VL-Chat/blob/f57cfbd358cb56b710d963669ad1bcfb44cdcdd8/modeling_qwen.py#L565) so that image embeddings can directly be passed to the forward function.
+        so that image embeddings can directly be passed to the forward function.
 
 ### 4. Run the experiments
 To produced images with refusal perturbation on 100 sampled images for VQAv2 dataset on LLaVA-1.5 with three different types of shadow questions, run the following command:
