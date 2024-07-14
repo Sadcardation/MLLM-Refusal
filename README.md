@@ -86,7 +86,7 @@ Clone the MLLM repositories and place them in the `models` directory, and follow
         so that image embeddings can directly be passed to the forward function.
 
 ### 4. Run the experiments
-To produced images with refusal perturbation on 100 sampled images for VQAv2 dataset on LLaVA-1.5 with three different types of shadow questions, run the following command:
+To produced images with refusal perturbation on 100 sampled images for VQAv2 dataset on LLaVA-1.5 with three different types of shadow questions under default settings, run the following command:
 ```bash
 ./attack.sh
 ```
