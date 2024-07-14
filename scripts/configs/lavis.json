@@ -1,0 +1,6 @@
+{
+    "model_path": "blip2_vicuna_instruct",
+    "model_base": "vicuna7b",
+    "device": "cuda",
+    "model_position": "models/LAVIS"
+}

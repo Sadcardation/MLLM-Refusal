@@ -1,0 +1,6 @@
+{
+    "model_path": "minigpt4",
+    "temperature": 0.2,
+    "max_new_tokens": 512,
+    "model_position": "models/MiniGPT-4"
+}
