@@ -51,7 +51,7 @@ MLLM-Refusal
 `sampled_data_100.xlsx` contains the 100 sampled image-question for each dataset. `similar_questions.json` contains the similar questions for each questions in the sampled data.
 
 ### 3. Prepare the MLLMs
-Clone the MLLM repositories and place them in the `models` directory, and follow the install instructions for each MLLM.Include corresponding `utils` directory in each MLLM's directory. 
+Clone the MLLM repositories and place them in the `models` directory, and follow the install instructions for each MLLM. Include corresponding `utils` directory in each MLLM's directory. 
 - [**LLaVA-1.5**](https://github.com/haotian-liu/LLaVA)
 
     Additional instructions:
