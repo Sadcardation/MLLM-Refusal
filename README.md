@@ -98,3 +98,7 @@ To evaluate the results, run the following command:
 ./evaluate.sh
 ```
 with corresponding MLLM's directory and the name of the result directory. Refusal Rates will be printed on the terminal and saved in the each result directory.
+
+## Acknowledgement
+- [Abusing Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs](https://github.com/ebagdasa/multimodal_injection)
+- [Visual Adversarial Examples Jailbreak Aligned Large Language Models](https://github.com/Unispac/Visual-Adversarial-Examples-Jailbreak-Large-Language-Models)
