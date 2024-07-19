@@ -99,6 +99,17 @@ To evaluate the results, run the following command:
 ```
 with corresponding MLLM's directory and the name of the result directory. Refusal Rates will be printed on the terminal and saved in the each result directory.
 
+## Citation
+If you find MLLM-Refusal helpful in your research, please consider citing:
+```bibtex
+@article{shao2024refusing,
+  title={Refusing Safe Prompts for Multi-modal Large Language Models},
+  author={Shao, Zedian and Liu, Hongbin and Hu, Yuepeng and Gong, Neil Zhenqiang},
+  journal={arXiv preprint arXiv:2407.09050},
+  year={2024}
+}
+```
+
 ## Acknowledgement
 - [Abusing Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs](https://github.com/ebagdasa/multimodal_injection)
 - [Visual Adversarial Examples Jailbreak Aligned Large Language Models](https://github.com/Unispac/Visual-Adversarial-Examples-Jailbreak-Large-Language-Models)
