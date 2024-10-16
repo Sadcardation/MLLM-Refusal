@@ -6,5 +6,5 @@
     "max_new_tokens": 512,
     "load_8bit": false,
     "load_4bit": true,
-    "model_position": "models/LLaVAß"
+    "model_position": "models/LLaVA"
 }
