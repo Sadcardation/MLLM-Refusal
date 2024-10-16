@@ -10,6 +10,7 @@ cd MLLM-Refusal
 conda env create -f environment.yml
 conda activate mllm_refusal
 ```
+- Oct 16, 2024: Because many libraries have been updated, and running above commands maybe not prepare the environment correctly for this project, we recommend preparing separate environments for each MLLM according to their instructions and installing necessary libraries accordingly. The libraries for a unified environment are listed in `requirements.txt`.
 
 ### 2. Prepare the datasets
 
